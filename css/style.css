@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    text-align: center;
+    min-height: 100vh;
+    background: url("/pokemon-ruby-version-wallpaper-preview.jpg") no-repeat;
+    background-size: 2000px 1000px;
+
+}
+
+main {
+    
+    display: inline-block;
+    margin-top: 10%;
+    padding: 10px;
+    position: relative;
+}
+
+.escritaPoke {
+    
+    display: inline-block;
+    width: 40%;
+   
+}
+
+.pokedex {
+    width: 100%;
+max-width: 1000px;
+}
+
+.pokemon_imagem {
+    position: absolute;
+    bottom: 45%;
+    left: 32%;
+    transform: translate(19%, -8%);
+    height: 27%;
+    width: 27%;
+
+}
+
+.pokemondata {
+    position: absolute;
+    font-weight: 400;
+    top: 20%;
+    right: 42%;
+    color: aliceblue;
+    font-size: clamp(1px, 2vw, 20px);
+    
+}
+
+.pokemonname {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: clamp(10px, 2vw, 20px); 
+    
+}
+
+.form {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    right: 0.5%;
+    font-size: clamp(1px, 2vw, 20px);
+}
+
+.inputsearch {
+    width: 20%;
+    padding: 0.6%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 800;
+    margin-top: -10px;
+    
+
+}
+
+.btn-proximo {
+    position: absolute;
+    bottom: 62%;
+    left: 74.8%;
+    width: 5.6%;
+    font-size: clamp(1px, 50vw, 20px);
+    display: flex;
+    
+    padding: 2.1%;
+    margin-bottom: -16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    
+    font-weight: 800;
+}
+
+.btn-voltar {
+    position: absolute;
+    bottom: 62%;
+    left: 68.8%;
+    width: 5.5%;
+    font-size: clamp(1px, 50vw, 20px);
+    display: flex;
+    margin-bottom: -33px;
+    
+    padding: 2.1%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
